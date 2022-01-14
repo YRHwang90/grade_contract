@@ -5,7 +5,7 @@ Demo Grading Contract
 
 # Contract Grades – “A” Contract
 
-I, John Tukey, agree to :
+I, Yoo Ri Hwang, agree to :
 
 1.  Earn “Satisfactory” on 12 self-paced lab assignments on the schedule
     specified below.
@@ -31,44 +31,44 @@ I, John Tukey, agree to :
 
 ## SCHEDULE
 
--   [ ] Module 01, 01/10 - 01/14 : What is Data Science and Meet the
+-   [ ] Module 01, 01/14 - 01/18 : What is Data Science and Meet the
     Toolkit
-    -   Finish Lab 1 by 01/14
--   [ ] Module 02, 01/17 - 01/21 : Data and Visualization
-    -   Finish Lab 2 by 01/21
--   [ ] Module 03, 01/24 - 01/28 : Grammar of data wrangling
-    -   Finish Lab 3 by 01/28
-    -   Finish portfolio piece 1 by 01/28
--   [ ] Module 04, 01/31 - 02/04 : Data types and Data Transformations
-    -   Finish Lab 4 by 02/04
--   [ ] Module 05, 02/07 - 02/11 : Tips for effective data visualization
-    -   Finish Lab 5 by 02/11
-    -   Finish portfolio piece 2 by 02/11
--   [ ] Module 06, 02/14 - 02/18 : Scientific studies and confounding
-    -   Finish Lab 6 by 02/18
--   [ ] Module 07, 02/21 - 02/25 : Web scraping
-    -   Finish Lab 7 by 02/25
-    -   Finish portfolio piece 3 by 02/25
--   [ ] Module 08, 02/28 - 03/04 : Functions
-    -   Finish Lab 8 by 03/04
-    -   Finish Unessay 1 due on 03/04
--   [ ] Module 09, 03/07 - 03/11 : Data and Ethics
-    -   Finish Lab 9 by 03/11
-    -   Finish portfolio piece 4 by 03/11
--   [ ] Module 10, 03/14 - 03/18 : Fitting and interpreting models
-    -   Finish Lab 10 by 03/18
--   [ ] Module 11, 03/21 - 03/25 : Prediction and overfitting
-    -   Finish Lab 11 by 03/25
-    -   Finish portfolio piece 5 by 03/25
--   [ ] Module 12, 03/28 - 04/01 : Cross validation
-    -   Finish Lab 12 by 04/01
-    -   Finish portfolio piece 6 by 04/01
--   [ ] Module 13, 04/04 - 04/08 : Quantifying uncertainty
-    -   Finish portfolio pieces 7 and 8 by 04/08
--   [ ] Module 14, 04/11 - 04/15 : Interactive web apps
-    -   Finish portfolio piece 9 by 04/15
--   [ ] Module 15, 04/18 - 04/22 : Special Topics
-    -   Finish portfolio piece 10 by 04/22
-    -   Finish Unessay 2 due on 04/22
+    -   Finish Lab 1 by 01/18
+-   [ ] Module 02, 01/21 - 01/25 : Data and Visualization
+    -   Finish Lab 2 by 01/25
+-   [ ] Module 03, 01/28 - 02/01 : Grammar of data wrangling
+    -   Finish Lab 3 by 02/01
+    -   Finish portfolio piece 1 by 02/01
+-   [ ] Module 04, 02/04 - 02/08 : Data types and Data Transformations
+    -   Finish Lab 4 by 02/08
+-   [ ] Module 05, 02/11 - 02/15 : Tips for effective data visualization
+    -   Finish Lab 5 by 02/15
+    -   Finish portfolio piece 2 by 02/15
+-   [ ] Module 06, 02/18 - 02/22 : Scientific studies and confounding
+    -   Finish Lab 6 by 02/22
+-   [ ] Module 07, 02/25 - 03/01 : Web scraping
+    -   Finish Lab 7 by 03/01
+    -   Finish portfolio piece 3 by 03/01
+-   [ ] Module 08, 03/04 - 03/08 : Functions
+    -   Finish Lab 8 by 03/08
+    -   Finish Unessay 1 due on 03/08
+-   [ ] Module 09, 03/11 - 03/15 : Data and Ethics
+    -   Finish Lab 9 by 03/15
+    -   Finish portfolio piece 4 by 03/15
+-   [ ] Module 10, 03/18 - 03/22 : Fitting and interpreting models
+    -   Finish Lab 10 by 03/22
+-   [ ] Module 11, 03/25 - 03/29 : Prediction and overfitting
+    -   Finish Lab 11 by 03/29
+    -   Finish portfolio piece 5 by 03/29
+-   [ ] Module 12, 04/01 - 04/05 : Cross validation
+    -   Finish Lab 12 by 04/05
+    -   Finish portfolio piece 6 by 04/05
+-   [ ] Module 13, 04/08 - 04/12 : Quantifying uncertainty
+    -   Finish portfolio pieces 7 and 8 by 04/12
+-   [ ] Module 14, 04/15 - 04/19 : Interactive web apps
+    -   Finish portfolio piece 9 by 04/19
+-   [ ] Module 15, 04/22 - 04/26 : Special Topics
+    -   Finish portfolio piece 10 by 04/26
+    -   Finish Unessay 2 due on 04/26
 -   [ ] Portfolio completion and end-of-semester presentation
-    -   Due on 04/22
+    -   Due on 04/26

@@ -2,8 +2,8 @@
 title: Demo Grading Contract
 output: github_document
 params:
-  weekonemonday: "2022-01-10"
-  name: John Tukey
+  weekonemonday: "2022-01-14"
+  name: Yoo Ri Hwang 
 ---
 
 ```{r setup, include=FALSE}
