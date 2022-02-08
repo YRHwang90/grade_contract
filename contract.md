@@ -7,7 +7,7 @@ Demo Grading Contract
 
 I, Yoo Ri Hwang, agree to :
 
-1.  Earn “Satisfactory” on 12 self-paced lab assignments on the schedule
+1.  Earn “Satisfactory” on 11 self-paced lab assignments on the schedule
     specified below.
     -   Satisfactory defined:
     -   I have attempted all steps of the assignment. If unable to
@@ -33,16 +33,16 @@ I, Yoo Ri Hwang, agree to :
 
 -   [ ] Module 01, 01/14 - 01/18 : What is Data Science and Meet the
     Toolkit
-    -   Finish Lab 1 by 01/18
+    -   Finish Lab 1 by 02/08
 -   [ ] Module 02, 01/21 - 01/25 : Data and Visualization
-    -   Finish Lab 2 by 01/25
+    -   Finish Lab 2 by 02/08
 -   [ ] Module 03, 01/28 - 02/01 : Grammar of data wrangling
-    -   Finish Lab 3 by 02/01
-    -   Finish portfolio piece 1 by 02/01
+    -   Finish Lab 3 by 02/15
+    -   Finish portfolio piece 1 by 02/22
 -   [ ] Module 04, 02/04 - 02/08 : Data types and Data Transformations
-    -   Finish Lab 4 by 02/08
+    -   Finish Lab 4 by 02/15
 -   [ ] Module 05, 02/11 - 02/15 : Tips for effective data visualization
-    -   Finish Lab 5 by 02/15
+    -   Finish Lab 5 by 02/22
     -   Finish portfolio piece 2 by 02/15
 -   [ ] Module 06, 02/18 - 02/22 : Scientific studies and confounding
     -   Finish Lab 6 by 02/22

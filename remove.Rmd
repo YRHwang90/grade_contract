@@ -1,9 +1,15 @@
 ---
-title: Demo Grading Contract
+title: "Untitled"
+author: "Yoo Ri Hwang"
+date: "1/21/2022"
+output: html_document
+---
+---
+title: Grading Contract
 output: github_document
 params:
-  weekonemonday: "2022-01-14"
-  name: Yoo Ri Hwang 
+  weekonemonday: "2022-01-10"
+  name: Fanyi Zeng
 ---
 
 ```{r setup, include=FALSE}
@@ -18,14 +24,16 @@ advdate <- function(obj,
   twed <- obj + 2 + 7*(adv-1)
   tthu <- obj + 3 + 7*(adv-1)
   tfri <- obj + 4 + 7*(adv-1)
+  tsun <- obj + 7 + 7*(adv-1)
   tmon <- format(tmon, format="%m/%d")
   ttue <- format(ttue, format="%m/%d")
   twed <- format(twed, format="%m/%d")
   tthu <- format(tthu, format="%m/%d")
   tfri <- format(tfri, format="%m/%d")
+  tsun <- format(tsun, format="%m/%d")
   zadv <- sprintf("%02d", adv)
   if (is.null(topic)&is.null(assignment)){
-    tmp <- paste(unit,zadv,sep='',", ", tmon," - ",tfri)
+    tmp <- paste(unit,zadv,sep='',", ", tmon," - ",tsun)
   } else if(!is.null(assignment)){
     if(assignment %in%
        c("Friday",
@@ -62,9 +70,15 @@ advdate <- function(obj,
               "m")
             ){
     tmp <- paste0(tmon)
+  }else if(assignment %in%
+            c("sunday",
+              "sunday",
+              "s")
+            ){
+    tmp <- paste0(tsun)
   }
   }else{
-    tmp <- paste(unit,zadv,sep='',", ", tmon," - ",tfri, " : ", topic[adv])
+    tmp <- paste(unit,zadv,sep='',", ", tmon," - ",tsun, " : ", topic[adv])
     }
   return(tmp)
 }
@@ -107,49 +121,46 @@ I, `r params$name`, agree to :
 2) Produce at least 10 “Satisfactory” portfolio pieces on the schedule specified below.
 3) Complete two “Satisfactory” Unessays on the schedule specified below.
 4) Complete a “Satisfactory” presentation based on the strongest of the two unessays. 10 minutes total in length.
-
+5) Extensions are negotiable based on circumstances (including but not limited to, being sick, schedule conflicts, etc.).
 
 
 ## SCHEDULE
-
 - [ ] `r advdate(dayone, 1, topic)`
-  - Finish Lab 1 by `r advdate(dayone, 4, assignment="f")`
+  - Finish Lab 1 by `r advdate(dayone, 1, assignment="s")`
 - [ ] `r advdate(dayone, 2, topic)`
-  - Finish Lab 2 by `r advdate(dayone, 4, assignment="f")`
+  - Finish Lab 2 by `r advdate(dayone, 2, assignment="s")`
 - [ ]  `r advdate(dayone, 3, topic)`
-  - Finish Lab 3  by `r advdate(dayone, 5, assignment="f")`
-  - Finish portfolio piece 1 by `r advdate(dayone, 6, assignment="f")`
+  - Finish Lab 3  by `r advdate(dayone, 3, assignment="s")`
+  - Finish portfolio piece 1 by `r advdate(dayone, 3, assignment="s")`
 - [ ] `r advdate(dayone, 4, topic)`
-  - Finish Lab 4  by `r advdate(dayone, 5, assignment="f")`
+  - Finish Lab 4  by `r advdate(dayone, 4, assignment="s")`
 - [ ] `r advdate(dayone, 5, topic)`
-  - Finish Lab 5  by `r advdate(dayone, 6, assignment="f")`
-  - Finish portfolio piece 2 by `r advdate(dayone, 5, assignment="f")`
+  - Finish Lab 5  by `r advdate(dayone, 5, assignment="s")`
+  - Finish portfolio piece 2 by `r advdate(dayone, 5, assignment="s")`
 - [ ] `r advdate(dayone, 6, topic)`
-  - Finish Lab 6 by `r advdate(dayone, 6, assignment="f")`
+  - Finish Lab 6 by `r advdate(dayone, 6, assignment="s")`
 - [ ] `r advdate(dayone, 7, topic)`
-  - Finish Lab 7 by `r advdate(dayone, 7, assignment="f")`
-  - Finish portfolio piece 3 by `r advdate(dayone, 7, assignment="f")`
+  - Finish Lab 7 by `r advdate(dayone, 7, assignment="s")`
+  - Finish portfolio piece 3 by `r advdate(dayone, 7, assignment="s")`
 - [ ] `r advdate(dayone, 8, topic)`
-  - Finish Lab 8 by `r advdate(dayone, 8, assignment="f")`
-  - Finish Unessay 1 due on `r advdate(dayone, 8, assignment="f")`
+  - Finish Lab 8 by `r advdate(dayone, 8, assignment="s")`
+  - Finish Unessay 1 due on `r advdate(dayone, 8, assignment="s")`
 - [ ] `r advdate(dayone, 9, topic)`
-  - Finish Lab 9 by `r advdate(dayone, 9, assignment="f")`
-  - Finish  portfolio piece 4 by `r advdate(dayone, 9, assignment="f")`
+  - Finish Lab 9 by `r advdate(dayone, 9, assignment="s")`
+  - Finish  portfolio piece 4 by `r advdate(dayone, 9, assignment="s")`
 - [ ] `r advdate(dayone, 10, topic)`
-  - Finish Lab 10 by `r advdate(dayone, 10, assignment="f")`
+  - Finish Lab 10 by `r advdate(dayone, 10, assignment="s")`
 - [ ] `r advdate(dayone, 11, topic)`
-  - Finish Lab 11 by `r advdate(dayone, 11, assignment="f")`
-  - Finish portfolio piece 5 by `r advdate(dayone, 11, assignment="f")`
+  - Finish Lab 11 by `r advdate(dayone, 11, assignment="s")`
+  - Finish portfolio piece 5 by `r advdate(dayone, 11, assignment="s")`
 - [ ] `r advdate(dayone, 12, topic)`
-  - Finish Lab 12 by `r advdate(dayone, 12, assignment="f")`
-  - Finish portfolio piece 6 by `r advdate(dayone, 12, assignment="f")`
+  - Finish portfolio piece 6 by `r advdate(dayone, 12, assignment="s")`
 - [ ] `r advdate(dayone, 13, topic)`
-  - Finish portfolio pieces 7 and 8 by `r advdate(dayone, 13, assignment="f")`
+  - Finish portfolio pieces 7 and 8 by `r advdate(dayone, 13, assignment="s")`
 - [ ] `r advdate(dayone, 14, topic)`
-  - Finish portfolio piece 9 by `r advdate(dayone, 14, assignment="f")`
+  - Finish portfolio piece 9 by `r advdate(dayone, 14, assignment="s")`
 - [ ] `r advdate(dayone, 15, topic)`
-  - Finish portfolio piece 10 by `r advdate(dayone, 15, assignment="f")`
-  - Finish Unessay 2 due on `r advdate(dayone, 15, assignment="f")`
+  - Finish portfolio piece 10 by `r advdate(dayone, 15, assignment="s")`
+  - Finish Unessay 2 due on `r advdate(dayone, 15, assignment="s")`
 - [ ] Portfolio completion and end-of-semester presentation
-  - Due on `r advdate(dayone, 15, assignment="f")`
-
+  - Due on `r advdate(dayone, 15, assignment="s")`
