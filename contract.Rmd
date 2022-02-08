@@ -113,7 +113,11 @@ I, `r params$name`, agree to :
 ## SCHEDULE
 
 - [ ] `r advdate(dayone, 1, topic)`
+<<<<<<< HEAD
   - Finish Lab 1 by `r advdate(dayone, 4, assignment="f")`
+=======
+  - Finish Lab 1 by `r advdate(dayone, 2, assignment="f")`
+>>>>>>> bff4cdfb118ce57e52854c4d39bdc9fb44a0f0d5
 - [ ] `r advdate(dayone, 2, topic)`
   - Finish Lab 2 by `r advdate(dayone, 4, assignment="f")`
 - [ ]  `r advdate(dayone, 3, topic)`
