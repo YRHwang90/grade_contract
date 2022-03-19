@@ -32,8 +32,11 @@ I, Yoo Ri Hwang, agree to :
 ## SCHEDULE
 
 -   [ ] Module 01, 01/14 - 01/18 : What is Data Science and Meet the
-    Toolkit
-    -   Finish Lab 1 by 02/08
+    Toolkit \<\<\<\<\<\<\< HEAD
+    -   # Finish Lab 1 by 02/08
+
+    -   Finish Lab 1 by 01/25 >\>\>\>\>\>\>
+        bff4cdfb118ce57e52854c4d39bdc9fb44a0f0d5
 -   [ ] Module 02, 01/21 - 01/25 : Data and Visualization
     -   Finish Lab 2 by 02/08
 -   [ ] Module 03, 01/28 - 02/01 : Grammar of data wrangling
@@ -50,19 +53,19 @@ I, Yoo Ri Hwang, agree to :
     -   Finish Lab 7 by 03/01
     -   Finish portfolio piece 3 by 03/01
 -   [ ] Module 08, 03/04 - 03/08 : Functions
-    -   Finish Lab 8 by 03/08
-    -   Finish Unessay 1 due on 03/08
+    -   Finish Lab 8 by 03/22
+    -   Finish Unessay 1 due on 03/29
 -   [ ] Module 09, 03/11 - 03/15 : Data and Ethics
-    -   Finish Lab 9 by 03/15
-    -   Finish portfolio piece 4 by 03/15
+    -   Finish Lab 9 by 03/29
+    -   Finish portfolio piece 4 by 03/29
 -   [ ] Module 10, 03/18 - 03/22 : Fitting and interpreting models
     -   Finish Lab 10 by 03/22
 -   [ ] Module 11, 03/25 - 03/29 : Prediction and overfitting
     -   Finish Lab 11 by 03/29
-    -   Finish portfolio piece 5 by 03/29
+    -   Finish portfolio piece 5 by 04/05
 -   [ ] Module 12, 04/01 - 04/05 : Cross validation
     -   Finish Lab 12 by 04/05
-    -   Finish portfolio piece 6 by 04/05
+    -   Finish portfolio piece 6 by 04/12
 -   [ ] Module 13, 04/08 - 04/12 : Quantifying uncertainty
     -   Finish portfolio pieces 7 and 8 by 04/12
 -   [ ] Module 14, 04/15 - 04/19 : Interactive web apps
